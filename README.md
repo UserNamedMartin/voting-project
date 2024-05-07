@@ -50,7 +50,7 @@ The output of the program can be found in the `voting_project/src/data` director
 - **"pdf_database.csv"**: Output of the Web Scraping component, structured as follows:
   | Voting ID | Voting Date | Voting PDF URL | Expected Number of Target Votes |
   | --------- | ----------- | -------------- | ------------------------------- |
-- **"main_database.csv"**: Output of the PDF Processing component. **IMPORTANT!!!** Due to the GitHub file size limitations, main database is devided in two parts: "main_database.csv" and "main_database_2.csv". Before any opetaions with the program it is crucial to run `voting_project/src/data/merge_main_database.py`. This code will merge "main_database_2.csv" into "main_database.csv" and delete "main_database_2.csv" file. The final "main_database.csv" will be structured as follows:
+- **"main_database.csv"**: Output of the PDF Processing component. **IMPORTANT!!!** Due to the GitHub file size limitations, main database is devided in two parts: "main_database.csv" and "main_database_2.csv". Before any operations with the project it is crucial to run `voting_project/src/data/merge_main_database.py`. This code will merge "main_database_2.csv" into "main_database.csv" and delete "main_database_2.csv" file. The final "main_database.csv" will be structured as follows:
   | Voting ID | Voting Date | Voter ID | Voter's Name | Voter's Party | Voter's Vote |
   | --------- | ----------- | -------- | ------------ | ------------- | ------------ |
 - **"nodes_database.csv"**: Output of the Network Creation component, structured as follows:
