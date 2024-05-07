@@ -1,0 +1,5 @@
+tqdm
+requests
+fitz
+unidecode
+beautifulsoup4

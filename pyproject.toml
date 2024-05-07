@@ -1,0 +1,16 @@
+[project]
+name = "voting-project"
+version = "0.0.1"
+authors = [
+  {name = "Martin Mourzenkov", email = "martin.murzenkov@gmail.com"}
+]
+description = "Collection and preparation of data from Polish Sejm website"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.dependencies]
+tqdm = "*"
+requests = "*"
+fitz = "*"
+unidecode = "*"
+beautifulsoup4 = "*"
